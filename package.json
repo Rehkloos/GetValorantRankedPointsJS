@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "Enzo Bonfante",
@@ -15,6 +14,7 @@
     "axios-cookiejar-support": "^1.0.0",
     "dotenv": "^8.2.0",
     "moment": "^2.29.1",
+    "nodemon": "^2.0.6",
     "tough-cookie": "^4.0.0"
   }
 }
